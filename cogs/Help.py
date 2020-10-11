@@ -37,7 +37,7 @@ class Help(commands.Cog):
         embed.add_field(name="ping", value="Gives the Latency of the Bot", inline=True)
         embed.add_field(name="clear", value="Purges/Clears the given amount of messages", inline=True)
 
-
+        embed.add_field(name="wiki", value="Posts a Summary of the text provided", inline=True)
         embed.add_field(name="meme", value="Posts a meme from r/memes", inline=True)
         embed.add_field(name="dank", value="Posts a meme from r/Dankmemes", inline=True)
         

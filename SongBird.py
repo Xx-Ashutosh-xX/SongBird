@@ -15,7 +15,7 @@ from os import system
 import aiohttp
 import random
 
-TOKEN = 'NzYxNjM4NTIxNzMwNzYwNzM0.X3dhJg.RhwJ-MLvsu2R3SrfNIRY24WIzws' # Bot Tokken
+TOKEN = 'NzA1MzU1OTMwODAzMzcyMTEz.Xqqf5g.afhIP-gHX6hbtWzNCCgZqtAq68g' # Bot Tokken
 BOT_PREFIX = '-' # Bot prefix
 
 bot = commands.Bot(command_prefix = BOT_PREFIX)
