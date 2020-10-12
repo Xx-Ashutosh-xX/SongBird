@@ -15,7 +15,7 @@ def sendWiki(text):
 
 class Wiki(commands.Cog):
 
-    def __inti__(self, bot):
+    def __init__(self, bot):
         self.bot = bot
 
 
