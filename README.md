@@ -1,24 +1,55 @@
-# Discord Meme & Music Bot
+# Song Bird
 
-This bot plays music and post memes to a discord channel
+Song Bird is a bot that plays music and posts memes to a Discord channel.
 
-## Instruction for running the bot
+### Features
 
-1. Create a new Application in Discord Developer Portal 
-2. Select the option of bot and add permisions to it
-3. Install the following python libraries :
-    - Discord.py [pip install discord.py]
+- Instant music playback
+- Pause/play/resume functionality
+- Fresh memes
+
+### Getting Started
+
+Below are instructions on how to run Song Bird for yourself.
+
+##### Prerequisites 
+
+You will need [Git](https://git-scm.com/), [Python](https://www.python.org/downloads/), and [PIP](https://pypi.org/project/pip/) to pull from this repository and install the required dependencies on your own machine.
+
+##### Cloning the Repository
+
+First, go to the folder that you want to clone the repository into:
+```bash
+# Example:
+cd C:\mydiscordbots
+```
+Where `mydiscordbots` is where you want to place the repository.  
+
+Next, issue the following commands:
+```bash
+# Clone this repository
+git clone https://github.com/Xx-Ashutosh-xX/SongBird.git
+```
+You should see that Git has created a folder called `SongBird` in `mydiscordbots`.
+
+##### Running the Bot
+
+1. Go to [Discord's Developer Portal](https://discord.com/developers/applications)
+2. Create a new Application in Discord Developer Portal 
+3. Select the **bot** tab within the application settings and a new bot
+4. Add permisions to it by selecting all the bot premissions below
+5. Install the following python libraries:
+    - Discord.py `pip install discord.py`
     - youtube-dl [pip install youtube-dl]
-  
-4. Add the bot to your Discord server
-5. Genrate the token of your bot and replace it in SongBird.py file
-6. Run the Python file to make your bot online
-7. Its prefix is {-} i.e 'dash', try calling -h or -help to get all the commands available yet.
+6. Add the bot to your Discord server
+7. Genrate the token of your bot and replace it in SongBird.py file
+8. Run the Python file to make your bot online
+9. Its prefix is {-} i.e 'dash', try calling -h or -help to get all the commands available yet.
 
-## How it's made?
+## How is it made?
 
 It is just a Python file made with Discord.py library and uses the bot token to connect to your bot.
 
-## How it looks like?
+## How does it look like?
 
 ![img](https://github.com/Xx-Ashutosh-xX/SongBird/blob/main/assets/Example.png)
